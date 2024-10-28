@@ -1,0 +1,8 @@
+ServerAdmin l1moniq@icloud.com
+Listen 8080
+DocumentRoot "C:/Program Files/Apache Group/Apache2/htdocs"
+DirectoryIndex index.php
+ <Directory "C:/Program Files/Apache Group/Apache2/htdocs">
+Options Indexes
+AllowOverride All
+</Directory>
